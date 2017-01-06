@@ -1,0 +1,3 @@
+[submodule "lib/clmtrackr"]
+	path = lib/clmtrackr
+	url = https://github.com/auduno/clmtrackr.git
