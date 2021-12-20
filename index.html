@@ -1,7 +1,24 @@
-<head></head>
+<head>
+  <link rel="stylesheet" href="css/style.css"></link>
+</head>
 <body>
+  <img id="face"></img>
+  <canvas id="facecanvas"></canvas>
+
+  <video controls id="videoel" width="400" height="300" preload="auto" loop src="media/cap12_edit.mp4">
+    <!--<video id="videoel" width="320" height="240" preload="auto">-->
+    <!--<source src="./media/franck.ogv" type="video/ogg"/>-->
+  </video>
+
+
+  <canvas id="outcanvas"></canvas>
+
+
+
+  <script src="lib/three.js/build/three.js"></script>
+
   <script src="lib/clmtrackr/js/clmtrackr.min.js"></script>
-  <script src="lib/clmtrackr/js/clm.js"></script>
   <script src="lib/clmtrackr/models/model_pca_20_svm.js"></script>
+
   <script src="js/app.js"></script>
 </body>
